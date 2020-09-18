@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+/**
+ * Reset
+ */
+@import "reset.css";
+
+/**
+ * Home
+ */
+
+  #app {
+    margin: 0 auto;
+    background: url("../assets/img/home_agency.jpg") no-repeat;
+    background-size: cover;
+    height: 3100px;
+    /*opacity: 0.5;*/
+  }
+
+  #app header {
+    background: url("../assets/img/lion2.jpg") no-repeat;
+    background-size: cover;
+    height: 732px;
+    /*opacity: 0.5;*/
+  }
+
+  .header--logo {
+    padding: 34px 0px 0px 50px;
+  }
+
+  .header--logo h1 {
+    letter-spacing: 1px;
+    font-family: 'Arial';
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .header--hamburger img {
+    float: right;
+    width: 25px;
+    margin: -24px 50px;
+  }
+
+  .header--title-welcome {
+    margin: 12% auto auto 19.5%;
+  }
+
+  .header--title-welcome span {
+    font-family: 'Arial';
+    font-size: 18px;
+    font-weight: 100;
+    color: #ffffff;
+    letter-spacing: 2px;
+    opacity: 0.8;
+  }
+
+  .header--title {
+    margin: 3.9% 60% auto 19.5%;
+  }
+
+  .header--title h2 {
+    font-size: 50px;
+    font-family: 'Arial';
+    font-weight: 800;
+    color:#ffffff;
+    letter-spacing: 2px;
+    padding-bottom: 10%; 
+  }
+
+  .header--title p {
+    font-size: 13px;
+    font-family: 'Arial';
+    font-weight: 100;
+    color: #ffffff;
+    opacity: 0.9;
+    letter-spacing: 0.5px;
+  }
+
+  .button--press {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-family: 'Arial';
+    font-weight: 100;
+    letter-spacing: 1px;
+    position: absolute;
+    padding: 14% 0% 0% 4%;
+    opacity: 70%;
+    font-size: 13px;
+  }
+
+  .button--next {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: 1px;
+    font-family: 'Arial';
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #ffffff;
+    float: right;
+    padding: 8% 4% 0% 0%;
+    opacity: 70%;
+    font-size: 13px;
+  }
+
+  .header--title img {
+    width: 30px;
+    padding-top: 30px;
+  }
+
+/**
+ * SECTION
+ */
+
+ .line-vertical {
+    
+  }
+    
+
+
+
+
+
